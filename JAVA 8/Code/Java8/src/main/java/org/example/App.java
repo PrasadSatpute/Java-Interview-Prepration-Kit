@@ -39,12 +39,9 @@ class myNormalClass
         System.out.println("Hi from Normal Class and Not Override in any class");
     }
 }
-class myNormalChildClass extends myNormalClass implements myInterface
+class myNormalChildClass extends myNormalClass
 {
-    @Override
-    public void getID() {
-        System.out.println();
-    }
+    
 }
 public class App 
 {
