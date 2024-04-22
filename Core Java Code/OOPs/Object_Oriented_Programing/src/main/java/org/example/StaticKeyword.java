@@ -22,12 +22,19 @@ class OuterClass {
         // static nested class
     }
 }
+class StaticBlock
+{
+    static {
+        System.out.println("Static Block");
+    }
+}
 public class StaticKeyword {
     static {
         System.out.println("Static Block is called");
     }
-    public static void main(StringClass[] args) {
-        System.out.println("Main method is called");
+
+    public static void main(String[] args) {
+        System.out.println("Main Method is Running");
     }
 }
 

@@ -20,5 +20,11 @@ public class Test6_Consumer {
         listConsumer1.accept(Arrays.asList(1, 2, 3, 4));
 
         listConsumer.andThen(listConsumer1).accept(Arrays.asList(1,2,3,4));
+
+        Consumer<Integer> squareMe = i -> System.out.println("Square is = "+i * i);
+        squareMe.accept(5);
+        Consumer<Integer> doubleMe = i -> System.out.println("Double is = "+(i + i));
+        doubleMe.accept(5);
+        squareMe.andThen(doubleMe).accept(5);
     }
 }

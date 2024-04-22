@@ -11,13 +11,10 @@ public class Test4_Predicate {
 
         Predicate<Integer> isEven = x -> x % 2 == 0;
 
-        Predicate<String> startsWithLetterV = x -> x.toLowerCase().charAt(0) == 'V' ;
+        Predicate<String> startsWithLetterV = x -> x.toLowerCase().charAt(0) == 'v' ;
         Predicate<String> endsWithLetterL = x -> x.toLowerCase().charAt(x.length() - 1) == 'l';
-        Predicate<String> and = startsWithLetterV. and (endsWithLetterL);
-        Predicate<String> or = startsWithLetterV. or (endsWithLetterL);
-        Predicate<String> neget = startsWithLetterV;
-        System.out.println( and.test("Vipul"));
-        System.out.println( or.test("Vipul"));
-        System.out.println( neget.test("Vipul"));
+        System.out.println( startsWithLetterV. and (endsWithLetterL).test("Vipul"));
+        System.out.println( startsWithLetterV. or (endsWithLetterL).test("Vipul"));
+        System.out.println( startsWithLetterV.negate().test("Vipul"));
     }
 }
