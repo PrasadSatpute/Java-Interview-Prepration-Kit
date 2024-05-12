@@ -12,5 +12,11 @@ public class P1_Odd_Even {
                 listOfIntegers.stream().collect(Collectors.partitioningBy(i -> i % 2 == 0));
         System.out.println("Even = " + oddEvenNumbersMap.get(true));
         System.out.println("Odd = " + oddEvenNumbersMap.get(false));
+
+        List<Integer> Even = listOfIntegers.stream().filter(x -> x % 2 == 0).collect(Collectors.toList());
+        System.out.println(Even);
+
+        List<Integer> Odd= listOfIntegers.stream().filter(x -> x % 2 != 0).collect(Collectors.toList());
+        System.out.println(Odd);
     }
 }
