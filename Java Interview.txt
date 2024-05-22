@@ -1,0 +1,54 @@
+Infosys Java Interview
+
+Why String is Immutable?
+Checked an Unchecked Exception?
+C++ vs Java
+Agile Methodology
+JDK JVM JRE
+Why Java in not Fully Object Oriented?
+Method Overloading and Method Overriding?
+JPA and Hibernate
+Spring and Spring Boot
+Agile vs Scrum
+What is String Joiner in Java 8?
+Given two Array Find common elements and find Unique elements.
+
+Difference between Abstract class and Interface.
+What are wrapper class in java.
+Give me an Example of Thread safe collection in Java.
+Have you used design pattern.
+Builder pattern singleton pattern factory pattern abstract factory pattern
+java 8 feature 
+what is optional class
+what is method reference
+What is IOC in Spring
+What are the different ways to achieve the dependency injection
+What are different bean Scope.
+Advantage of using Spring boot over Spring
+@SpringBootApplication
+Difference between @Controller and @RestController
+Can we use @Component annotation instead of @Service or @Repository annotation
+How will you achieve second level catches in hibernate
+What are the advantages of Hibernate
+What is Lazy loading and Eager loading in Hibernate
+What difference between get and load in Hibernate
+What is Microservices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
