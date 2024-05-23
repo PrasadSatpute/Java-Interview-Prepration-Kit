@@ -21,6 +21,15 @@ Deference between StringBuffer and StringBuilder
 How do you store password in your code?
 What is Exception handling?
 What is Throw and Throws?
+Why we use Spring Boot?
+What is Spring Web Dependency in Spring Boot?
+What is Junit and How it works?
+Spring MVC Flow
+Tools for checking for Logs
+Use of SonarQube
+
+Why multiple inherence not supported in Java?
+ 
 
 
 Difference between Abstract class and Interface.
