@@ -7,32 +7,101 @@ Agile Methodology
 JDK JVM JRE
 Why Java in not Fully Object Oriented?
 Method Overloading and Method Overriding?
+Give me an Example of Thread safe collection in Java.
 JPA and Hibernate
 Spring and Spring Boot
 Agile vs Scrum
 What is String Joiner in Java 8?
 Given two Array Find common elements and find Unique elements.
 
+What is Static?
+Can we override Static Method?
+Why String is Immutable?
+Deference between StringBuffer and StringBuilder
+How do you store password in your code?
+What is Exception handling?
+What is Throw and Throws?
+
+
 Difference between Abstract class and Interface.
+- The basic difference between in Abstract and Interface is Abstract class have abstract and non-abstract methods in it and Interface have only abstract methods but from Java 8 in interface having Static methods and Default methods.
+- Both Abstract and Interface is use to achieve hide the internal details and shows only functionality.
+- We cant extend Multiple class but we can implement multiple Interfaces
+
 What are wrapper class in java.
-Give me an Example of Thread safe collection in Java.
+- Wrapper class is provide us to use Primitive type as a Object.
+- Like fore Example Integer, Boolean etc. is Wrapper classes in Java.
+- Mainly we can use Wrapper Class in Java where we need the Generic type Like For example ArrayList having only Generic type.
+
 Have you used design pattern.
-Builder pattern singleton pattern factory pattern abstract factory pattern
-java 8 feature 
+- Yes I used Design Pattern Like Singleton Design pattern and Factory Design Pattern.
+
+java 8 feature
+- Functional Interface
+- lambda Expression
+- Method Reference
+- Stream API
+- Optional Class
+
 what is optional class
+- In Java 8 Optional Class is use to avoid NullPointerException
+- We will create using Optional.ofNullable(returnvalue)
+
 what is method reference
-What is IOC in Spring
+- Method Reference is just like replacement of Lambda Expression
+- We can use to call with double semicolon ::
+- Its just like we can call static method using class name
+
+What is IOC and Dependency Injection in Spring
+- Inversion Of Control is nothing but gives the control to spring IOC Container and as developer we can focusing on our business logic
+- So Spring IOC Container will take care of life cycle of your object
+- Dependency Injection is way to implementation Inversion Of Control
+- Dependency Injection means to inject the one object in onather  IOC coantiner
+
 What are the different ways to achieve the dependency injection
-What are different bean Scope.
+- There is Construction injection and Setter Injection 
+
+What are different bean Scope
+- Bean Scope means the lifecycle of Beans in Spring Container
+- There is commonly use Singleton and Prototype
+- Singleton is define the only one instance is created and share across the entire spring container here all request will retune the same instance of each time.
+- Prototype is define the new instance of spring bean each time means it will create new instance in spring container for each request
+
 Advantage of using Spring boot over Spring
-@SpringBootApplication
+- Spring Boot allows us to auto configuration for application using annotations
+- It reduce so many Boilerplate code
+- Spring boot provide us to Embedded Tomcat server
+- Spring boot will create production ready application for us we need to just focus on our business logic
+
+What is @SpringBootApplication Annotation in Spring boot
+- Firstly it use to mark the class as starting point of Spring boot Application
+- It is combination three annotation which is @EnableAutoConfiguration, @ComponentScan and @Configuration
+- Now in @EnableAutoConfiguration will enable the autoconfiguration means it will configure all the configuration if present in classpath
+- In @ComponentScan will Scan all component which is present in application
+- In @Configuration will help to define beans or classes which will return beans
+
 Difference between @Controller and @RestController
+- Controler annotation will mark our class as a spring MVC Controller so typically it use for web application where return type is view
+- and other hand RestController is specialize version of Controller, It is combination of Controller and ResponceBody
+- It is use for RESTfull web services instead of returning a view the RestController will return a Data mostly in Json format.
+
 Can we use @Component annotation instead of @Service or @Repository annotation
-How will you achieve second level catches in hibernate
-What are the advantages of Hibernate
+- Yes we can use but it is Bad practice of Codding
+- We need to annoted specific Annotation to tell the spring container
+
 What is Lazy loading and Eager loading in Hibernate
-What difference between get and load in Hibernate
+- Lazy Loading means while we can call the explicitly method to load the data
+- Eager loading means it will load data eagerly means it will load the data on the spot
+
 What is Microservices
+- In simple word microservices is the methodology which we can create the different applications with specific functionality of this application
+
+
+How will you achieve second level catches in hibernate
+
+What are the advantages of Hibernate
+
+What difference between get and load in Hibernate
 
 
 
