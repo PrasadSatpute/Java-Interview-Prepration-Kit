@@ -1,38 +1,274 @@
 {
-	"Java":
-	{
-		"Core Java":
-		{
-            "Java Features":"",
-            "OOPs Concepts":"",
-            "String":"",
-            "Exception Handling":"",
-            "Multithreading":"",
-            "Collections":"",
-			"Core Java and Java 8":""
-		},
-        "Advance Java":
-        {
-            "Servlet":"",
-            "Sprin Framework":"",
-            "Garbage Collection":"",
-            "Rest and RESTfull":""
-        },
-        "Spring Boot":
-        {
-            "Microservices":"",
-            "Spring Security JWT, OAuth":""
-        },
-        "Advance Concept":
-        {
-            "Design Pattern":"",
-            "Rest and RESTfull(Swagger)":"",
-            "Exception Handling in Spring Boot":""
-        },
-        "Kafka":
-        {
-            "Kafka with Spring Boot":""
-        }
-	}
-	
-}
+    "Core Java Topics": [
+      {
+        "Introduction to Java": [
+          "History of Java",
+          "Features of Java",
+          "Java Development Kit (JDK), Java Runtime Environment (JRE), Java Virtual Machine (JVM)",
+          "Installing JDK and setting up the environment"
+        ]
+      },
+      {
+        "Java Basics": [
+          "Syntax, keywords, and identifiers",
+          "Data types, variables, and arrays",
+          "Operators (Arithmetic, Logical, Bitwise, Relational, etc.)",
+          "Control flow statements (if-else, switch-case)",
+          "Looping statements (for, while, do-while)"
+        ]
+      },
+      {
+        "Object-Oriented Programming (OOP) Concepts": [
+          "Classes and Objects",
+          "Constructors",
+          "Methods (Overloading and Overriding)",
+          "Inheritance (Single, Multilevel, Hierarchical)",
+          "Polymorphism",
+          "Encapsulation",
+          "Abstraction",
+          "Interfaces and Abstract classes"
+        ]
+      },
+      {
+        "Exception Handling": [
+          "Types of Exceptions",
+          "Try, Catch, Finally blocks",
+          "Throw and Throws keyword",
+          "Custom Exceptions"
+        ]
+      },
+      {
+        "Java Strings": [
+          "String class and its methods",
+          "StringBuffer and StringBuilder classes",
+          "StringTokenizer class"
+        ]
+      },
+      {
+        "Collections Framework": [
+          "List (ArrayList, LinkedList, Vector)",
+          "Set (HashSet, LinkedHashSet, TreeSet)",
+          "Map (HashMap, LinkedHashMap, TreeMap, Hashtable)",
+          "Queue (PriorityQueue, Deque)",
+          "Iterators and Enumerations",
+          "Comparable and Comparator interfaces"
+        ]
+      },
+      {
+        "Multithreading and Concurrency": [
+          "Thread class and Runnable interface",
+          "Creating and starting threads",
+          "Thread lifecycle",
+          "Synchronization",
+          "Inter-thread communication",
+          "Concurrency utilities (Executors, CountDownLatch, CyclicBarrier, etc.)"
+        ]
+      },
+      {
+        "Input/Output (I/O) Streams": [
+          "Byte Streams and Character Streams",
+          "File handling",
+          "Serialization and Deserialization",
+          "Buffered I/O and Scanner class"
+        ]
+      },
+      {
+        "Java Utility Classes": [
+          "Wrapper classes",
+          "Math class",
+          "Date and Time API (java.util.Date, Calendar, java.time package)",
+          "Random class"
+        ]
+      },
+      {
+        "Java Annotations and Reflection": [
+          "Built-in Annotations",
+          "Custom Annotations",
+          "Reflection API"
+        ]
+      },
+      {
+        "Java Networking": [
+          "Basics of Networking",
+          "TCP/IP and UDP protocols",
+          "Socket programming",
+          "URL and URLConnection classes"
+        ]
+      },
+      {
+        "Java Applets": [
+          "Applet lifecycle",
+          "Creating and running Applets"
+        ]
+      },
+      {
+        "Java GUI Programming": [
+          "AWT (Abstract Window Toolkit)",
+          "Swing (JFrame, JButton, JLabel, JTextField, etc.)",
+          "Event Handling",
+          "Layout Managers"
+        ]
+      },
+      {
+        "Java Database Connectivity (JDBC)": [
+          "JDBC architecture",
+          "Connecting to a database",
+          "Statement, PreparedStatement, CallableStatement",
+          "ResultSet and ResultSetMetaData",
+          "Transactions"
+        ]
+      }
+    ],
+    "Advanced Java Topics": [
+      {
+        "Java Enterprise Edition (JEE) Overview": [
+          "Introduction to JEE",
+          "JEE components and APIs"
+        ]
+      },
+      {
+        "Servlets": [
+          "Servlet lifecycle",
+          "Servlet API",
+          "Handling HTTP requests and responses",
+          "Session management",
+          "Filters and Listeners"
+        ]
+      },
+      {
+        "JavaServer Pages (JSP)": [
+          "JSP lifecycle",
+          "JSP syntax and directives",
+          "JSP scripting elements",
+          "JSP implicit objects",
+          "JSP custom tags",
+          "Expression Language (EL)"
+        ]
+      },
+      {
+        "JavaServer Faces (JSF)": [
+          "JSF architecture",
+          "Managed Beans",
+          "Facelets",
+          "JSF lifecycle",
+          "Event handling in JSF"
+        ]
+      },
+      {
+        "Enterprise JavaBeans (EJB)": [
+          "Types of EJB (Session Beans, Entity Beans, Message-Driven Beans)",
+          "EJB lifecycle",
+          "Creating and deploying EJBs",
+          "EJB container services (Transactions, Security, etc.)"
+        ]
+      },
+      {
+        "Java Message Service (JMS)": [
+          "JMS architecture",
+          "Point-to-Point and Publish/Subscribe models",
+          "JMS API",
+          "Sending and receiving messages"
+        ]
+      },
+      {
+        "Java Persistence API (JPA)": [
+          "Introduction to JPA",
+          "Entities and ORM",
+          "JPA annotations",
+          "EntityManager and EntityTransaction",
+          "JPQL (Java Persistence Query Language)"
+        ]
+      },
+      {
+        "Spring Framework": [
+          "Spring Core (IoC, Dependency Injection)",
+          "Spring AOP (Aspect-Oriented Programming)",
+          "Spring MVC",
+          "Spring Boot",
+          "Spring Data",
+          "Spring Security"
+        ]
+      },
+      {
+        "Hibernate Framework": [
+          "Introduction to Hibernate",
+          "Hibernate architecture",
+          "Hibernate configuration",
+          "Mapping entities",
+          "HQL (Hibernate Query Language)",
+          "Caching in Hibernate"
+        ]
+      },
+      {
+        "Web Services": [
+          "Introduction to Web Services",
+          "SOAP (Simple Object Access Protocol) and REST (Representational State Transfer)",
+          "JAX-WS (Java API for XML Web Services)",
+          "JAX-RS (Java API for RESTful Web Services)"
+        ]
+      },
+      {
+        "Microservices": [
+          "Introduction to Microservices architecture",
+          "Building microservices with Spring Boot",
+          "Service discovery with Eureka",
+          "API Gateway with Zuul",
+          "Circuit Breaker with Hystrix",
+          "Containerization with Docker",
+          "Orchestration with Kubernetes"
+        ]
+      },
+      {
+        "JavaServer Pages Standard Tag Library (JSTL)": [
+          "Core Tags",
+          "Formatting Tags",
+          "SQL Tags",
+          "XML Tags"
+        ]
+      },
+      {
+        "Security": [
+          "Java Security API",
+          "Authentication and Authorization",
+          "Cryptography",
+          "Securing web applications"
+        ]
+      },
+      {
+        "JavaFX": [
+          "Introduction to JavaFX",
+          "JavaFX Application structure",
+          "UI controls and layouts",
+          "Event handling in JavaFX",
+          "CSS styling in JavaFX"
+        ]
+      },
+      {
+        "Advanced I/O": [
+          "NIO (New I/O)",
+          "Channels and Buffers",
+          "Selectors"
+        ]
+      },
+      {
+        "Build Tools": [
+          "Maven",
+          "Gradle"
+        ]
+      },
+      {
+        "Testing": [
+          "JUnit",
+          "Mockito",
+          "Integration testing with Spring"
+        ]
+      },
+      {
+        "Version Control Systems": [
+          "Git",
+          "GitHub"
+        ]
+      }
+    ]
+  }
+  
