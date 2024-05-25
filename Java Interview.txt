@@ -28,9 +28,28 @@ Spring MVC Flow
 Tools for checking for Logs
 Use of SonarQube
 
-Why multiple inherence not supported in Java?
- 
 
+What is default method and why its required?
+Any limits on numbers of default method?
+Is there any limit Abstract method in Interface?
+How do i mark my Functional interface?
+What are some of the predefine functions in java 8?
+What is lambda expression and what is the syntax?
+Lambda expression are use to provide implementation of functional interface so if i don't want use lambda expression how do i provide implementation?
+What is HTTP and how its works?
+And what about HTTPS?
+We have Streams in Java 8 so What are the terminal and intermediate operation in Java 8?
+What are the difference between findFirst() and findAny() method in Java 8?
+What is concurrentModifiactionException?
+What if I use HashTable which is thread safe so will it give me ConcurrentModificationException?
+What is ConcurrentHashMap and ConcurrentMap?
+What is ComputeIfAbsent in ConcurrentHashMap?
+Locks in ConcurrentHashMap?
+HashMap works with concept of Buckets now I have 32 buckets in my concurrentHashMap and the concurrency level is 16 so how many locks will be there and I have 32 buckets then how this lock will maps into this 32 buckets?
+Why wait and notify methods belong to object class?
+What is Deadlock in Database and also in Java?
+How the SQL serve will prevent this Deadlock?
+What are the ACID properties in Database?
 
 Difference between Abstract class and Interface.
 - The basic difference between in Abstract and Interface is Abstract class have abstract and non-abstract methods in it and Interface have only abstract methods but from Java 8 in interface having Static methods and Default methods.
@@ -111,6 +130,99 @@ How will you achieve second level catches in hibernate
 What are the advantages of Hibernate
 
 What difference between get and load in Hibernate
+
+
+What is Time complexity?
+How Multithreading Works in Java?
+How does exception handling works in Java?
+What is difference equals() and hashCode() method? and why it is necessary to override both?
+What is Shallow copy and Deep Copy? and How will you create a deep copy of an object in Java?
+What are SOLID design principles and how would you apply this principle in your Project?
+
+In which scenario we will use Optional Class?
+Why we use this Optional Class?
+Which scenario we will use ArrayList And LinkedList?
+How HashMap work internally?
+What is Singleton and when we will use it?
+If two thread are trying to create an object so what happen will there?
+Which would be better Synchronies the whole method or particular part of the code?
+What is @SpringBootApplication annotation?
+What difference between @Component and @Bean annotations?
+Which scenario will we use @Componet annotation and @Bean annotation?
+How to load profile specific application?
+how do you create restApi?
+
+
+What is Servlet?
+What is GenericServlet and HttpServlet?
+What is use of Callable interface?
+What is a real use of Polymorphism in your project?
+When will use Comparable and Comparator?
+If we don't want to serialize some of property what will do?
+What serial version UUID?
+What is the use of Volatile?
+What is Consumer interface in Java?
+What is variable Arguments?
+Overriding Exception rules
+How ConcurrentHashMap works?
+When we use Enum?
+How we can change tomcat server in jetty sever in spring boot?
+What is the use of Devtools?
+How we can remove any configuration file in spring boot?
+What is default scope of spring bean?
+what are the types of autowiring?
+Which type of autowiring is prefer for best practice or project?
+What is life cycle of Spring Bean?
+How can we secure our Web application?
+What is OAuth?
+What is JWT?
+
+
+Why multiple inheritance is not supported in Java?
+In hashMap Key is Object which already resent in hashMap what happen if put it same object in this hashMap?
+What is reason behind declare final variable for immutable class?
+Why String is immutable?
+Why wait and Notify method is present Object class rather than Thread environment because we used this in thread?
+What is Executer framework?
+Deference between Factory and Abstract Factory Design pattern?
+What is Method Hiding?
+Suppose method is throwing nullPointerException in Supper class can we override it which throw a runtime Exception?
+Deference between Sleep and Wait method in Java?
+difference between Comparable and Comparator?
+What is Singleton?
+Which is better to make whole method is synchronized or only the critical section of Synchronized in singleton class?
+If you have method which will return statement and surround with try, catch and finally block as well then what will happen is finally block execute or not and why? 
+What is Aggregation?
+What is binary tree?
+How hashMap internally Works?
+If we have list of employee object which have some fields so how will find out top 3 highest salary employee from this list using Java 8? what is logic for this?
+How Garbage collection works in Java?
+Why we use Spring boot if Spring framework is there?
+What is IOC Controller?
+What is the first level cache and second level cache in Hibernate?
+What is applicationContext?
+How we can manage different profiles environment in Microservice?
+
+
+Why Java is not 100% Object Oriented Programming Language?
+Deference between == and equals() method?
+What is Marker interface?
+What deffrence in hashMap in Java 8 and erlier Java 8?
+Defference between concurrentHashMap and HashMap?
+
+
+Can you let me know the memory structure in Java?
+Defference between interface and abstract class?
+What is failfast and failsafe?
+What is the difference between setter injection and constructor injection?
+What is Spring Boot Actuator?
+
+If we don't import the java.lang package what happen then?
+can we import same package twice?
+what is the way to import only static members of a class?
+What is serialization and what is the purpose of this in Java?
+How Garbage Collection works internally in Java?
+
 
 
 
