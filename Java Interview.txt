@@ -179,7 +179,7 @@ What is JWT?
 
 
 Why multiple inheritance is not supported in Java?
-In hashMap Key is Object which already resent in hashMap what happen if put it same object in this hashMap?
+In hashMap Key is Object which already present in hashMap what happen if put it same object in this hashMap?
 What is reason behind declare final variable for immutable class?
 Why String is immutable?
 Why wait and Notify method is present Object class rather than Thread environment because we used this in thread?
@@ -210,7 +210,6 @@ What is Marker interface?
 What deffrence in hashMap in Java 8 and erlier Java 8?
 Defference between concurrentHashMap and HashMap?
 
-
 Can you let me know the memory structure in Java?
 Defference between interface and abstract class?
 What is failfast and failsafe?
@@ -222,6 +221,184 @@ can we import same package twice?
 what is the way to import only static members of a class?
 What is serialization and what is the purpose of this in Java?
 How Garbage Collection works internally in Java?
+What is the Heap memory and Stack Memory?
+What is gc method?
+What is thread dump in Java?
+What is CopyOnWriteArrayList?
+What is ConcurrentHashMap?
+Why we override the equals() and hashCode() method in Java?
+Dose String is thread safe in Java?
+Explain the flow of Spring MVC?
+What is difference between microservices and normal services?
+What is orcasystem in microservices?
+How you can implementing disaster recover in project in microservices?
+What is Response entity and what is benefits of using response entity?
+Which tools we use to deploy the application?
+What is CI/CD and why we use and how it is important?
+How we can revers of string list in Java 8? tell me different ways for it?
+
+
+How to create Singleton Class?
+How we can achieve with cloneable interface for singleton class?
+Difference between in HashSet and TreeSet?
+Difference between comparable and comparator?
+When we will prefer comparator over comparable?
+Where we will define the logic for comparison in comparator interface?
+
+What is use of this keyword and super keyword?
+can you tell me some of the object class method?
+what is use of final, finally and finalize method?
+What are Generic in Java?
+Why we use string as key in hashMap?
+If we have employee object and we have list of employees then find  all the employee age is 25 in list using Java 8?
+If we have two interface which have one default methods which is same name now we need to call only method so how will we do this?
+What are the different scope in spring?
+How we can do scope in spring if we want prototype?
+What are the advantages of Spring boot while we have Spring?
+
+What is defference between JVM JRE JDK?
+What is platform independant exactly?
+What is the advantage of Stream API in Java 8?
+Suppose a method throws fileNotFound in superclass so can we override this method in subclass by I/O Exception?
+
+What is Dimond problem in Java?
+When we use ArrayList and LinkedList?
+What is the use of hashCode and equals method so why we override?
+What is deadlock? how we can prevent it?
+What is concurrency in java?
+Can we write single try block and multiple catch block?
+Why we use StringBuilder?
+What is Reflaction in Java?
+Is Java is pass by value or pass by refence?
+What do you mean by pass by value in java?
+What is Static?
+In which scenario we can get Exception ArrayIndexoutOfBound?
+What is use of marker Interface?
+What is Dependency Injection in Spring Boot?
+What do we understand by beans in Spring?
+What are the Test cases in Spring Boot Project?
+
+What is IOC in Spring?
+What are the different scope of Spring Been?
+What is instance level locking and class level locking?
+What is difference between normal interface and functional interface?
+What is difference between sleep and wait method?
+If we have Integer and int so which one will take more memory?
+What is difference between stack and heap memory in Java?
+When we use ArrayList and LinkedList?
+Difference between comparable and comparator?
+What is trigger in Database?
+Difference between primary key and unique key?
+Difference between hashMap and concurrentHashMap?
+Internal working of hashMap?
+How rehashing happens in hashMap?
+What is memory leak in Java?
+How we can detect memory leak in our application?
+What is Mockito?
+If we have exception one of the peace of code so how do we can write test case for this?
+Difference between in unit testing and integration test?
+There is approaches to writing test cases so what do you thing about that?
+What is crone expression and what is schedule in Java?
+What happen if we write return statement in finally block and in this block there is other statement after this return statement?
+What is the prepared statements and statement and what is benefits of prepared statements over the statement?
+What is REST and RESTfull?
+What do you know about String tokenizer in Java?
+There is tow ways to create thread but which is better for create thread?
+What callable interface and what is benefits?
+What is failfast and failsafe iterator?
+
+What is content negotiation?
+What is dependency injection and what is the advantage of this dependency injection?
+Two threads t1 and t2 so how we will ensure that this thread will run in sequentially?
+What is bean?
+How do you secure our microservices application?
+What is difference between component service repository annotation in Spring Boot?
+If we use @Controller annotation and we will perform some database related operation in this class what will happen?
+In database how we can measure our database performance? How do you create environment scalable for measure database performance?
+How do handle Exception in spring boot application?
+What is Hibernate and uses?
+What is JPA and how we use?
+What is repository in Hibernate?
+How do you use Agile methodology in you project?
+How do you use scheduler in your spring boot project?
+What is hashCode and equals method in Java?
+what is weakHashMap in Java?
+How concurrentHashMap works internally?
+How do you convert list into set and what will happen next?
+What is deep copy with example?
+
+What is difference between @Component, @Service, @Reppository?
+What is the reason behind overriding hashCode and equals method in Java?
+If we cant import java.lang package what will happen?
+What is difference between failfast and failsafe?
+What is Java Reflection?
+How Garbage collection internally works in Java?
+What is dynamic binding in Java?
+How can we create object dynamically in Java?
+What is WeakHashMap?
+Can we create finally block without creating catch block in Java?
+Is it possible we ca rethrow an Exception?
+How we remove duplicate in ArrayList in Java 8?
+What is TreeSet and HashSet and what its benefits and which is better?
+What is the use of Generics?
+There is copyOnWriteArrayList so what is use of this in Java?
+What is shutDown Hook in Java?
+How we can avoid deadloack situation in Java?
+What about executor frameworks?
+What about future interface and callable interface?
+In which scenario we can use parallel stream in Java 8?
+What is thread dump in java? Tell me Steps?
+In Spring MVC How we can create Spring REST Application?
+Why we use @Qulifier Annotation in Spring boot?
+What JPA we use to connect in spring boot application with oracle database?
+What is transaction management in Spring Boot?
+What is Bean Wiring in Spring?
+
+
+In which scenario we will use Optional Class?
+Can we use Get method to create a resource rather than Post method?
+What is @ResponseEntity?
+Why do we need to use ResponseEntity?
+What is Marker interface and why we should use?
+Logic for find the duplicate character in string?
+What is application context? How it is different from bean factory?
+What is monolithic architecture and microservices?
+What is HashSet? What are the features of HashSet?
+
+
+What is garbage collection?
+What do you mean by Dynamic Binding in Java?
+What are strings in java?
+What are the different ways to create a thread in java?
+When we will implement callable is there any specific method we need to override?
+What are thread life cycle states?
+What we use HashMap?
+When we should go for normal hashMap and when we should go foe ConcurrenthashMap?
+How do we connect with database in spring boot application?
+How will we can monitor our spring boot application?
+Why do we need Microservices application?
+What are the different modules we use in our microservices application for our project?
+What are indexes in database why do we use in application?
+What is normalization in database?
+what is foreign key in database?
+What is primary key in database?
+
+
+Sum of all the even no from given array using Java 8.
+Count the occurrence of given array list using Java 8.
+Check all the elements are divisible by 2 in list. print if all element is divisible by 2 and if not print not all elements are not divisible 2. use allMatch().
+Check at lest one elements are divisible by 2 in list. print if at least one no is divisible by 2 Single element are divisible by 2 or if not then print not single element not divisible by 2.
+Write a code revers the given number. give the 2 solutions.
+
+
+
+
+
+
+
+
+
+
 
 
 
