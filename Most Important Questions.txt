@@ -1,0 +1,8 @@
+How HashMap work Internally?
+What is enhancemet of HashMap in Java 8?
+What is failFast and failSafe?
+What is callable interface?
+Comparable vs Comparatore and which will be use?
+What Contract in Equals() and HashCode() method?
+what is ConcurrentHashMap?
+What is ConucrrentLinkedQueue?
