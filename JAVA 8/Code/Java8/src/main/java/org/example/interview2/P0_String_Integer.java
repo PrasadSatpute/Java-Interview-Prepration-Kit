@@ -26,11 +26,8 @@ public class P0_String_Integer {
                 .mapToObj(ch -> (char)ch);
 
         System.out.println("Print each char in Revers Order");
-        name
-                .chars()
-                .mapToObj(ch -> (char)ch)
-                .sorted(Comparator.reverseOrder())
-                .forEach(System.out::print);
+        StringBuilder newString = new StringBuilder(name);
+        System.out.println(newString.reverse());
 
         System.out.println("Print Frequency of Each Char in String");
         Map<Character, Long> collect = name
