@@ -6,3 +6,8 @@ Comparable vs Comparatore and which will be use?
 What Contract in Equals() and HashCode() method?
 what is ConcurrentHashMap?
 What is ConucrrentLinkedQueue?
+What is Marker Interface and Inbuild Marker Interface?
+Spring Bean LifeCycle and Scope?(init(), destroy())
+What is Wraper Class??
+What is Singletone and Write Singletone class and also how to break and privent Singletone Class?
+Why did you use @RestController and why not @Controller?

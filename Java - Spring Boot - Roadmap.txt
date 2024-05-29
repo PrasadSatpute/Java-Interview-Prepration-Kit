@@ -105,3 +105,105 @@ Microservices
 	API Gateway
 	Distributed Logs Tracing
 	Apache Kafka
+	
+Core Spring Framework Concepts
+	Dependency Injection (DI) and Inversion of Control (IoC)
+		What is Dependency Injection?
+		Types of Dependency Injection (Constructor, Setter, Field Injection)
+		Bean scopes (Singleton, Prototype, etc.)
+		
+	Spring Bean Lifecycle
+		Bean initialization and destruction
+		@PostConstruct and @PreDestroy annotations
+		
+	Spring Configuration
+		XML vs. Java-based configuration
+		@Configuration and @Bean annotations
+	
+Spring Boot Basics
+	Introduction to Spring Boot
+		What is Spring Boot?
+		Advantages of using Spring Boot
+		Differences between Spring Framework and Spring Boot
+
+	Spring Boot Starters
+		What are Spring Boot Starters?
+		Commonly used starters (spring-boot-starter-web, spring-boot-starter-data-jpa, etc.)
+
+	Spring Boot Annotations
+		@SpringBootApplication
+		@RestController
+		@RequestMapping/@GetMapping/@PostMapping
+		@Autowired
+
+	Spring Boot Auto-Configuration
+		How auto-configuration works
+		Customizing auto-configuration
+
+Building RESTful Web Services
+	REST Principles
+		REST architecture style
+		HTTP methods (GET, POST, PUT, DELETE)
+
+	Spring MVC
+		@Controller and @RestController
+		Handling requests and responses
+		@RequestParam, @PathVariable, @RequestBody
+
+	Exception Handling
+		@ExceptionHandler
+		@ControllerAdvice
+
+Data Access with Spring Boot
+	Spring Data JPA
+		What is Spring Data JPA?
+		JPA repositories (@Repository, CrudRepository, JpaRepository)
+		Entity relationships (One-to-One, One-to-Many, Many-to-Many)
+
+	Database Configuration
+		DataSource configuration
+		Spring Boot properties for database connection (application.properties/application.yml)
+
+	CRUD Operations
+		Creating, reading, updating, and deleting entities
+		Custom query methods using @Query annotation
+Security
+	Spring Security Basics
+		Introduction to Spring Security
+		Securing REST APIs
+		Basic authentication and authorization
+
+	JWT (JSON Web Tokens)
+		Basics of JWT
+		Using JWT for securing APIs
+
+Testing in Spring Boot
+	Unit Testing
+		Writing unit tests with JUnit and Mockito
+		@MockBean and @Mock annotations
+
+	Integration Testing
+		@SpringBootTest annotation
+		Testing REST APIs using MockMvc
+
+Spring Boot Actuator
+	Introduction to Spring Boot Actuator
+		Monitoring and management endpoints
+		Customizing Actuator endpoints
+
+Spring Boot DevTools
+	Introduction to DevTools
+		Features and benefits of DevTools
+		Enabling and using DevTools
+
+Miscellaneous
+	Spring Boot Profiles
+		Defining and using profiles (@Profile annotation)
+		Profile-specific properties
+	Logging
+		Configuring logging with Spring Boot
+		Using SLF4J and Logback
+
+Deployment
+	Packaging Spring Boot applications (jar/war)
+	Deploying Spring Boot applications to different environments (cloud, on-premises)

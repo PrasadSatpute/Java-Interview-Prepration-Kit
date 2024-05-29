@@ -112,6 +112,9 @@ Difference between @Controller and @RestController
 - Controler annotation will mark our class as a spring MVC Controller so typically it use for web application where return type is view
 - and other hand RestController is specialize version of Controller, It is combination of Controller and ResponceBody
 - It is use for RESTfull web services instead of returning a view the RestController will return a Data mostly in Json format.
+- @Controller – Spring framework will allways looking for HTML or view page for the returning string from method.
+- If we annoted @Controller it will always expect as return type Model and View
+- @RestController – It will return any thing we have in our method.
 
 Can we use @Component annotation instead of @Service or @Repository annotation
 - Yes we can use but it is Bad practice of Codding
