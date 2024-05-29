@@ -1,0 +1,107 @@
+Java Fundamentals
+	Basics
+	OOPS
+	String Handling
+	Exception Habdling
+	Multithreading	
+Collection
+	List
+		ArrayList
+		LinkedList
+		Vector
+			Stack
+	Queue
+		PriorityQue
+		Deque
+			ArrayDeque
+	Set
+		HashSet
+		LinkedHashSet
+		SortedSet
+			TreeSet
+	Map
+		HashMap
+		LinkedHashMap
+		SortedMap
+			TreeMap
+	Collection vs Collections
+	Iterable vs Iterator
+	Comparator vs Comparable
+	ArrayList vs LinkedList
+
+Java 8 Features
+
+JDBC
+
+Filters
+
+Servlet
+
+Spring Boot
+	Spring Framework
+	Spring vs Spring Boot
+	Spring Core
+		IOC
+		Dependency Injection
+		Spring Container
+		Spring Bean
+		Bean Lifecycle
+	Starter Dependency
+	Spring Data JDBC
+	Spring Data JPA
+	JPA Repository
+	Custom Query
+	Joining Query
+
+Spring MVC
+	HOW Work DispatchServlet, Filter
+	Handler Mapping [Controllers]
+	View Resolvers
+	Impartant Annotations
+
+Spring Exception Handling
+
+Validations
+
+REST APIS
+
+Interceptors
+
+Spring Boot Security
+	Authentication, Authorization
+	Internal working Spring Security
+	FormBased Security, BasicSecurity
+	Customization using @SecurityFilterChain
+	Managing User
+		In Memory
+		In Databse Configuration
+	JWT based security
+	OAuth security
+	security REST APIS
+
+Tetsing
+	JUNIT
+	Mockito
+	Testing different layers of application
+		DAO layes testing
+		Service layers testing
+		Controller layers testing
+
+Cloud Technology
+	Understanding Cloud
+	Virtual Machine
+		EC2
+		Configuration EC2 for Java Environment
+		Uploading Code
+		Configuration inbound rules
+		Configuration IP Address
+		Domain and DNS Management
+
+Microservices
+	How work Microservices
+	Architecture Microservices
+	Microservices Communication
+	Fault Tolerance
+	API Gateway
+	Distributed Logs Tracing
+	Apache Kafka
