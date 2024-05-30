@@ -1,3 +1,19 @@
+Java Basics
+Java 8
+Design patterns
+Database
+Servlet
+Hibernat
+Spring
+Spring Boot
+Spring Exception
+Spring Security
+Microservices
+AWS Lambda
+Spring Boot Kafka
+
+------------------------------------------------
+
 Java Fundamentals
 	Basics
 	OOPS
@@ -36,6 +52,8 @@ JDBC
 Filters
 
 Servlet
+
+Design Patterns
 
 Spring Boot
 	Spring Framework
