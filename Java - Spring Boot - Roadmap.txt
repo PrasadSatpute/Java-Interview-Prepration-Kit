@@ -6,6 +6,7 @@ Servlet
 Hibernat
 Spring
 Spring Boot
+Actuator, Swagger, Unit testing - JUNIT and Mockito
 Spring Exception
 Spring Security
 Microservices
