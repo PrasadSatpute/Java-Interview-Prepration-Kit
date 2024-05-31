@@ -11,3 +11,4 @@ Spring Bean LifeCycle and Scope?(init(), destroy())
 What is Wraper Class??
 What is Singletone and Write Singletone class and also how to break and privent Singletone Class?
 Why did you use @RestController and why not @Controller?
+What is Load Balancer?

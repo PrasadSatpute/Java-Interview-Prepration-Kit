@@ -8,7 +8,7 @@ Spring
 Spring Boot
 Actuator, Swagger, Unit testing - JUNIT and Mockito
 Spring Exception
-Spring Security
+Spring Security (Basic, OAuth, JWT)
 Microservices
 AWS Lambda
 Spring Boot Kafka
