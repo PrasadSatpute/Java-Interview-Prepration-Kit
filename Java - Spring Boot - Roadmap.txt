@@ -5,11 +5,12 @@ Database
 Servlet
 Hibernat
 Spring
-Spring Boot
+Spring Boot (Annotations, REST apis,)
 Actuator, Swagger, Unit testing - JUNIT and Mockito
 Spring Exception
 Spring Security (Basic, OAuth, JWT)
 Microservices
+DevOps (SDLC, Docker, Jenkins, CI/CD)
 AWS Lambda
 Spring Boot Kafka
 

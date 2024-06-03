@@ -23,9 +23,9 @@ public class P0_String_Integer {
         System.out.println("Print each char in UpperCase");
         name.toUpperCase()
                 .chars()
-                .mapToObj(ch -> (char)ch);
+                .mapToObj(ch -> (char)ch).collect(Collectors.toList()).forEach(System.out::print);
 
-        System.out.println("Print each char in Revers Order");
+        System.out.println("\nPrint each char in Revers Order");
         StringBuilder newString = new StringBuilder(name);
         System.out.println(newString.reverse());
 
