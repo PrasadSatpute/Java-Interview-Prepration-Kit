@@ -1,9 +1,9 @@
 Java Basics
 Java 8
-Design patterns
 Database
 Servlet
 Hibernat
+Design patterns
 Spring
 Spring Boot (Annotations, REST apis,)
 Actuator, Swagger, Unit testing - JUNIT and Mockito
