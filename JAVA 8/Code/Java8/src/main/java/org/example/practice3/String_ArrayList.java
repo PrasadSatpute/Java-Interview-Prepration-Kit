@@ -20,6 +20,11 @@ public class String_ArrayList {
         String join = String.join("-", list);
         System.out.println(join); // Java-CoreJava-Spring-SpringBoot-Microservices
 
+//        Join with Prefix and suffix and delimiter
+        String collect1 = list.stream().collect(Collectors.joining("-", "[", "]"));
+        System.out.println(collect1);
+//        [Java-CoreJava-Spring-SpringBoot-Microservices-Spring-Java]
+
 //        String length count
         Map<String, Integer> collect = list.stream().collect(Collectors.toMap(Function.identity(), String::length, (existing, replacement) -> existing));
         System.out.println(collect);

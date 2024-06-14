@@ -39,8 +39,8 @@ public class Integer_ArrayList {
 
 //        Max and Min
         System.out.println("Min - " + list.stream().sorted().findFirst().get());
-        System.out.println("Max - " + list.stream().min((a, b) -> b - a).get());
-        System.out.println("Max - " + list.stream().min(Comparator.reverseOrder()).get());
+        System.out.println("Max - " + list.stream().sorted((a, b) -> b - a).findFirst().get());
+        System.out.println("Max - " + list.stream().max(Comparator.naturalOrder()).get());
 
 //        Sorted
         list.stream()
