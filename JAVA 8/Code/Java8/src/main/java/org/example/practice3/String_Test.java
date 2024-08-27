@@ -9,6 +9,7 @@ public class String_Test {
     public static void main(String[] args) {
         String s1 = "RaceCar";
         String s2 = "CarRace";
+        String s3 = "welcome to this coding practice interview preparation";
 
 //        String into Array
         String[] arrayString1 = s1.split("");
@@ -35,5 +36,10 @@ public class String_Test {
         String frequent = "ABCDABDEFGABHGDFE";
         Map<Character,Long> freqList = frequent.chars().mapToObj(ch -> (char)ch).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
         System.out.println(freqList);
+
+//        Convert String First Character to upper case.
+        String strChar[] = s3.split(" ");
+        String upperStringChar = Arrays.stream(strChar).map(word -> word.substring(0, 1).toUpperCase() + word.substring(1)).collect(Collectors.joining(" "));
+        System.out.println(upperStringChar);
     }
 }
