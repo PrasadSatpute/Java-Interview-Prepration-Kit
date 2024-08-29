@@ -1,0 +1,149 @@
+Core Java
+Strings and Immutability
+Why is String immutable?
+Difference between StringBuffer and StringBuilder
+Why is String thread-safe in Java?
+What is StringJoiner in Java 8?
+Exceptions and Error Handling
+What are checked and unchecked exceptions?
+Explain exception handling.
+What is the difference between throw and throws?
+Overriding exception rules
+What is ConcurrentModificationException?
+Collections and Data Structures
+How does HashMap work internally?
+What is the difference between HashMap and ConcurrentHashMap?
+Give an example of a thread-safe collection in Java.
+Difference between HashSet and TreeSet
+Will ConcurrentModificationException occur with HashTable?
+What is ComputeIfAbsent in ConcurrentHashMap?
+How do locks work in ConcurrentHashMap?
+Explain fail-fast vs fail-safe iterators.
+Multithreading and Concurrency
+How does multithreading work in Java?
+Why do wait and notify methods belong to the Object class?
+What is a deadlock in Java and how can it be prevented?
+What is the Executor framework?
+What is the Callable interface?
+Explain the Future interface.
+When should parallel stream be used in Java 8?
+OOP Concepts and Design Patterns
+What is the difference between an abstract class and an interface?
+Difference between == and equals() method
+Explain the SOLID design principles.
+What is the difference between the Factory and Abstract Factory design pattern?
+What is the Singleton pattern?
+Explain method overloading and method overriding.
+What is method hiding?
+How is polymorphism used in your project?
+Java 8 Features
+What is a lambda expression and what is its syntax?
+What is a functional interface?
+What are the new features of Java 8?
+Explain the Stream API.
+What is the Optional class?
+What is a method reference?
+Explain intermediate and terminal operations in streams.
+What is the difference between findFirst() and findAny() methods?
+General Java Concepts
+What is static in Java?
+Can we override static methods?
+Why is Java not fully object-oriented?
+Explain the memory structure in Java.
+Is Java pass-by-value or pass-by-reference?
+What is serialization and what is its purpose?
+How does garbage collection work in Java?
+Explain reflection in Java.
+Advanced Java
+Spring and Spring Boot
+What is IOC and Dependency Injection?
+Explain the Spring MVC flow.
+What are the advantages of using Spring Boot over Spring?
+What is the @SpringBootApplication annotation?
+What is the difference between @Controller and @RestController?
+What are the different bean scopes in Spring?
+Explain autowiring in Spring.
+What is Spring Boot Actuator?
+What is the Spring Web dependency?
+How do you handle exceptions in a Spring Boot application?
+How do you configure profiles in Spring Boot?
+JPA and Hibernate
+What is JPA and how do you use it?
+Explain lazy loading and eager loading in Hibernate.
+What is the difference between get() and load() methods in Hibernate?
+How do you achieve second-level caching in Hibernate?
+What are the advantages of Hibernate?
+Web Technologies
+Servlets and Web Services
+What is a Servlet?
+Difference between GenericServlet and HttpServlet
+What are REST and RESTful web services?
+What is ResponseEntity in Spring?
+HTTP and Security
+What is HTTP and how does it work?
+What is HTTPS?
+How do you secure a web application?
+What are OAuth and JWT?
+What is content negotiation?
+Agile and Methodologies
+Agile Methodology
+What is Agile methodology?
+What is the difference between Agile and Scrum?
+How do you use Agile in your projects?
+Miscellaneous
+Database and SQL
+What are ACID properties in databases?
+What is a deadlock in databases and how can it be prevented?
+What is normalization in databases?
+What is a primary key and a unique key?
+What is a foreign key?
+What is a trigger in a database?
+How do you measure database performance?
+Testing and Tools
+What is JUnit and how does it work?
+What is Mockito?
+How do you use SonarQube for code quality?
+What tools do you use for checking logs?
+Miscellaneous Concepts
+How do you detect memory leaks in Java?
+What is the use of the Volatile keyword?
+Explain shallow copy vs deep copy.
+How do you create a deep copy of an object in Java?
+What is a marker interface?
+Programming Tasks and Examples
+Code Examples
+Given two arrays, find common elements and unique elements.
+Sum all the even numbers from a given array using Java 8.
+Count the occurrences in a given ArrayList using Java 8.
+Check if all elements are divisible by 2 in a list using allMatch().
+Check if at least one element is divisible by 2 in a list using anyMatch().
+Reverse a given number and provide two solutions.
+Find the top 3 highest salary employees from a list using Java 8.
+Remove duplicates from an ArrayList using Java 8.
+Convert a List to a Set and explain what happens next.
+Commonly Asked Questions Breakdown
+Very Common: Frequently asked in almost every Java interview.
+Common: Asked in many Java interviews, but not always.
+Less Common: Rarely asked, but good to know for comprehensive preparation.
+
+Very Common Topics
+String immutability
+Checked vs unchecked exceptions
+Multithreading and concurrency
+Lambda expressions and Stream API in Java 8
+Spring and Spring Boot basics
+JPA and Hibernate basics
+Agile methodology
+Common Topics
+OOP concepts (abstract class vs interface, SOLID principles)
+Exception handling and specific exceptions
+Collections framework (HashMap, ConcurrentHashMap)
+HTTP and web security (HTTP vs HTTPS, OAuth, JWT)
+Testing frameworks (JUnit, Mockito)
+Database fundamentals (ACID, normalization)
+Less Common Topics
+Specific design patterns
+Deep vs shallow copy
+Advanced multithreading concepts (Executer framework, Future interface)
+Specific tools (SonarQube, logging tools)
+Detailed Spring concepts (bean scopes, Spring Boot annotations)
