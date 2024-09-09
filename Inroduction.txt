@@ -1,0 +1,34 @@
+My name is Prasad Satpute. 
+I am from Nagpur, and I currently live in Pune.
+
+I have been working as a Java Developer in the service industry for the past two years. 
+I have experience in Java, SQL, and frameworks like Spring Boot. 
+I have also worked with databases such as MySQL and Oracle DB, and tools like Docker and Git for version control. 
+Additionally, I have experience with Apache Kafka in Spring Boot and microservices.
+
+Most of my work has been in the banking domain. 
+My latest project was the Multi Bureau Connector and Hunter for the Bank of Maharashtra. 
+In this project, I was the Lead Developer with a team of five members. 
+I developed REST APIs to fetch data from multiple bureaus and store it in the bank's database. 
+I used Spring Security and JWT Authentication for securing the APIs.
+
+On a typical day, I start by reviewing the code I worked on the previous day and the latest code checkouts. 
+I attend sprint task meetings and, by the end of the day, report my work and updates, which include client requests and any code changes.
+
+That's a brief overview of me.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
