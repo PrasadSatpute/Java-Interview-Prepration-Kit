@@ -1,6 +1,6 @@
 package org.example.interview;
 import java.util.Arrays;
-import java.util.stream.Stream;
+
 public class P9_Alphanumeric_Char_Array_String {
     public static void main(String[] args) {
         String str = "a1b2c3d4e5f6g7h8i9j0";

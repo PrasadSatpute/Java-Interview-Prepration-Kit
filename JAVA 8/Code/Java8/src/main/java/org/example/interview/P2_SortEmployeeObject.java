@@ -2,8 +2,7 @@ package org.example.interview;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 public class P2_SortEmployeeObject {
     public static void main(String[] args) {
         System.out.println("How to sort the employee list in ascending and descending order using Java-8 streams API?");
