@@ -396,13 +396,29 @@ Write a code revers the given number. give the 2 solutions.
 
 
 
+Can We Override Static and Private method?
+- No, We can't
+  If we do Override Static method it become Method Hiding.
 
 
+Difference in Java 7 and Java 8 Interface?
+- We have Static and Default method in Java 8 interface.
+- in Java 7 if write methods in Interface then we must implement all this methods.
+- Now in Java 8 we have Default method which we did not force to override this method.
+-  
 
 
-
-
-
+What is benefits of Encapsulation in Java?
+What is Inner Class?
+Final Keyword?
+Entry point in Java?
+What is tread of between use of Ordered Array and unordered Array?
+why dose Java have Transient field?
+JIT
+What is Servlet?
+What is Structure of Java Heap?
+Is there any thing like Static class in Java?
+What is different between Error and Exception?
 
 
 
