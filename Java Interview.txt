@@ -419,6 +419,7 @@ What is Servlet?
 What is Structure of Java Heap?
 Is there any thing like Static class in Java?
 What is different between Error and Exception?
+How Start() method is work in Multithreading in Java?
 
 
 
